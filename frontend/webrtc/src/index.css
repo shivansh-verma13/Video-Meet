@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+video {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+  -moz-transform: rotateY(180deg); /* Firefox */
+}
+
+@media (max-width: 738px) {
+  .options {
+    width: 100%;
+  }
+  .optionHeading {
+    font-size: px;
+  }
+  .callButton {
+    font-size: 12px;
+  }
+  .optionsFormDiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly;
+    align-items: center; */
+  }
+  .optionsFormDiv > div {
+    width: 100%;
+  }
+  .optionsFormDiv > div > input {
+    font-size: 12px;
+  }
+  .videoPlayer {
+    display: flex;
+    flex-direction: column;
+  }
+  .videoPlayer > div {
+    width: 100%;
+  }
+  .buttonsDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    /* width: 100%; */
+  }
+}
